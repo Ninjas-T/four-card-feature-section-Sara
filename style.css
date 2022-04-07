@@ -101,3 +101,51 @@
     width: 60%;
   }
 }
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+
+  .content .main-heading {
+    color: hsl(229, 6%, 66%);
+    font-size: 1.78rem;
+  }
+
+  .content .sub-heading {
+    font-weight: 600;
+    font-size: 1.75rem;
+  }
+
+  .content .description {
+    width: 50%;
+    margin: 1.5rem auto 0;
+    font-size: 0.9rem;
+  }
+  /* ==== cards ==== */
+  .cards-section .container {
+    width: 90%;
+  }
+  .cards-container {
+    height: 40rem;
+  }
+  .cards-container .card {
+    width: 32%;
+    margin: 1rem;
+  }
+  .card .card-content p {
+    font-size: 0.7rem;
+  }
+
+  .cards-container .supervisor {
+    margin: 10rem 0;
+  }
+  .cards-container .calculator {
+    margin: 10rem 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+}
