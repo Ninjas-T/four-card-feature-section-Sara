@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cards-section {
+  width: 100%;
+}
+
+.cards-section .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ============ start of description section ============ */
+.cards-section .container .content {
+  text-align: center;
+  /* border: solid black 1px; */
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.content .main-heading {
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.content .sub-heading {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 1.45rem;
+}
+
+.content .description {
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+/* ============ end of description section ============ */
+/* ============ start of cards part =================== */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards-container .card {
+  /* border: solid black 1px; */
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px hsl(233, 9%, 81%);
+}
+
+.cards-container .card .card-content {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.card .card-content h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card .card-content p {
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.card .card-img {
+  text-align: right;
+}
+
+.cards-container .supervisor {
+  border-top: solid hsl(180, 62%, 55%) 4px;
+}
+
+.cards-container .team-builder {
+  border-top: solid hsl(0, 78%, 62%) 4px;
+}
+.cards-container .karma {
+  border-top: solid hsl(34, 97%, 64%) 4px;
+}
+.cards-container .calculator {
+  border-top: solid hsl(212, 86%, 64%) 4px;
+}
